@@ -1,0 +1,57 @@
+
+body {
+    background-color: aqua;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    max-height: 75px;
+    background-color:black;
+    text-align: center;
+}
+
+.main-header {
+    margin: 25px auto;
+}
+
+.panel {
+    display: inline-block;
+    height:600px;
+    width: 19%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    background-color: #15182B;
+    color:white;
+    padding: 0px 5px;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+}
+
+.descriptor {
+    position: relative;
+    top: 70%;
+    bottom: 25%;
+    font-size: 40px;
+    text-align: center;
+}
+
+.subscription-form {
+    display: flex;
+    width: 90%;
+    margin: 10px auto;
+    font-size: larger;
+}
+
+.submit-form {
+    align-items: center;
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+}
+
