@@ -20,7 +20,7 @@
 
 
 body {
-  background-color: black;
+  background-color: aqua;
   margin: 0 auto;
 }
 
@@ -155,4 +155,9 @@ header {
   0% { background-position: 0 0; }
   50% { background-position: 400% 0; }
   100% { background-position: 0 0; }
+}
+
+.contact {
+  position:sticky;
+  display: inline-block;
 }
